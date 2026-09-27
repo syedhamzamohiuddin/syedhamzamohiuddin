@@ -1,7 +1,7 @@
 # Hi, I'm Syed Hamza Mohiuddin 👋
 ### Computer Vision Engineer | Systems & Edge AI
 
-I am an algorithmic and systems-focused Computer Vision Engineer with a holistic grasp of the vision stack. My expertise bridges the gap between classical computer vision techniques (image processing, geometric reasoning, and tracking), deep learning architectures, and high-performance production pipelines: from custom training loops and multi-process system design to model optimization and edge deployment (TensorRT, Qualcomm AI Hub, ONNX).
+I am an algorithmic and systems-focused Computer Vision Engineer with a holistic grasp of the vision stack. My expertise bridges the gap between classical computer vision techniques (image processing, geometric reasoning, and tracking), deep learning architectures, and high-performance production pipelines: from custom training loops and multi-process system design to model optimization and edge deployment (TensorRT, Qualcomm AI Hub, ONNX, TFLite).
 
 ---
 
