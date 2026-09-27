@@ -6,18 +6,19 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 ---
 
 ### 🏆 Key Highlights
-*   **Global Recognition (CVPR Workshop 2026) – Track 2:** Ranked **8th/38 globally** in Video Action Recognition. Optimized R2+1D for Qualcomm Dragonwing IQ-9075 under a strict <34ms latency budget, overcoming severe class imbalance and label noise through rigorous data auditing.
-*   **Global Recognition (CVPR Workshop 2026) – Track 1:** Ranked **12th/56 globally** in Open-World Retrieval. Optimized MobileCLIP/ViT-B/16 for Qualcomm XR2 Gen 2, engineering a custom model wrapper to resolve tokenizer discrepancies (Causal vs. Bidirectional) for on-device inference.
+*   **IEEE LPCVC 2026 (CVPR Workshop) – Track 2:** Ranked **8th/38 globally** in Video Action Recognition. Optimized R2+1D for Qualcomm Dragonwing IQ-9075 under a strict <34ms latency budget, overcoming severe class imbalance and label noise through rigorous data auditing.
+*   **IEEE LPCVC 2026 (CVPR Workshop) – Track 1:** Ranked **12th/56 globally** in Open-World Retrieval. Optimized MobileCLIP/ViT-B/16 for Qualcomm XR2 Gen 2, engineering a custom model wrapper to resolve tokenizer discrepancies (Causal vs. Bidirectional) for on-device inference.
 *   **High-Performance Systems Architecture:** Redesigned a monolithic, single-process 30 FPS dual-camera pipeline into a **4-process parallel architecture** using Zero-Copy IPC (`multiprocessing.shared_memory`) and OpenCV-CUDA. Achieved a **>300% performance increase (100+ FPS)** by resolving GUI latency and CPU-bound preprocessing bottlenecks.
 *   **Open-Source Contributor:** Authored the **Structured Pruning Engine for Ultralytics YOLO (v8/v11)** — a fully customizable, dependency-aware pruning framework with per-layer YAML control. Demonstrated up to **49% size reduction** and **30% latency improvement** in benchmark tests. [View PR #21977](https://github.com/ultralytics/ultralytics/pull/21977)
+
 ---
 
 ### 🛠️ Core Expertise
 
 *   **Systems Architecture & Optimization:** High-Performance Multiprocessing, Zero-Copy IPC (Shared Memory), GPU Acceleration (OpenCV-CUDA), TensorRT, Qualcomm AI Hub (QNN), ONNX, INT8 Quantization, Structured Pruning.
-*   **Deep Learning & DL-based CV:** Object Detection (YOLO v5-v11), Segmentation (U-Net), Tracking (ByteTrack, TransReID), Pose Estimation, Vision Transformers (ViT/VLMs), ReID.
+*   **Deep Learning & DL-based CV:** Object Detection (YOLO v5-v11), Segmentation (U-Net), Tracking (ByteTrack, TransReID), Pose Estimation, Vision Transformers (ViT/VLMs), ReID, Video Action Recognition (Temporal Modeling), Multi-modal Retrieval (CLIP, MobileCLIP).
 *   **Classical & Algorithmic CV:** Image Processing (Morphology, CLAHE, Canny, Contours), Geometric Reasoning (Zhang's Calibration, Homography, ArUco, `scipy.optimize`), Tracking (Kalman Filtering, Optical Flow, Background Subtraction).
-*   **Languages & Tools:** Python (Expert), PyTorch, TensorFlow, C++ (CUDA Certified), Netron Model Surgery, Reverse Engineering.
+*   **Languages & Tools:** Python (Expert), PyTorch, TensorFlow, C++ (CUDA Certified), Netron Model Surgery, Reverse Engineering, Model Benchmarking (`clip_benchmark`).
 
 ---
 
