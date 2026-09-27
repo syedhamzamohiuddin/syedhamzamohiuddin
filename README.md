@@ -51,7 +51,7 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 *   **Result:** Ranked **8th/38 globally**.
 *   **Challenge:** 92-class fitness video dataset with severe class imbalance (some classes <150 examples) and significant label noise.
 *   **Solution & Approach:** Modified the training pipeline to log per-class train/val accuracy and individual misclassifications, manually auditing 4,500+ problematic instances. Designed 7 separate augmentation and cropping strategies based on class-specific confusion analysis. Diagnosed a Qualcomm hardware compiler tiling failure and pivoted to a 16-frame architecture to meet a <34ms latency budget.
-*   **Outcome:** Improved accuracy from 91.44% to **93.24%** through rigorous data curation and training rule refinement.  **[Bayesian Earthquake Forecast](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** – Bayesian AR(3) model for seismic activity prediction.
+*   **Outcome:** Improved accuracy from 91.44% to **93.24%** through rigorous data curation and training rule refinement.
 
 ---
 
