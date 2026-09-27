@@ -19,6 +19,14 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 
 ---
 
+## 💼 Experience
+
+*   **Swift Vision Pvt. Ltd.** | Computer Vision Intern → Computer Vision Engineer → Computer Vision Research Engineer | Apr 2025 - Jan 2026
+    *(Promoted to R&D ownership within 4 months based on execution and technical leadership).*
+*   **Folio3 Pvt. Ltd.** | AI Intern | July 2023 - Sep 2023
+
+---
+
 ### 📂 Featured Projects
 *   **[Ultralytics YOLO Structured Pruning Engine](https://github.com/ultralytics/ultralytics/pull/21977)** – Native PyTorch pruning framework (49% size reduction).
 *   **[U-Net Paper Reimplementation](https://github.com/syedhamzamohiuddin/unet-paper-reimplementation)** – Faithful implementation of original U-Net architecture with weight maps and elastic deformation.
@@ -26,6 +34,7 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 *   **[Bayesian Earthquake Forecast](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** – Bayesian AR(3) model for seismic activity prediction.
 
 ---
+
 ## Certifications & Coursework
 
 <details>
@@ -68,6 +77,7 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 - **[Bayesian Earthquake Forecasting](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** — Bayesian AR(3) model in R for global seismic activity: model order selection, posterior inference, prior sensitivity, mixture AR model comparison..
 
 ---
+
 ### 📫 Connect with Me
 *   **LinkedIn:** [linkedin.com/in/syedhamzamohiuddin](https://www.linkedin.com/in/syedhamzamohiuddin) *(Replace with your actual LinkedIn URL if different)*
 *   **Kaggle:** [kaggle.com/hamzamohiuddin](https://www.kaggle.com/hamzamohiuddin)
