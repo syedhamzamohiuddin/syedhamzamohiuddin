@@ -78,6 +78,14 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 
 ---
 
+## 🎥 Video Demonstrations
+A collection of visual demos from early project work showcasing classical CV, tracking, and basic detection pipelines.
+
+*   **[View the full project demo playlist on YouTube](URL_TO_YOUR_PLAYLIST)** 
+    *(Includes: Water Quality Inspection, Vehicle Detection, Pose Estimation, Pedestrian Tracking, Multi-Car Tracking, Liquid Fill Estimation, and more).*
+
+---
+
 ### 📫 Connect with Me
 *   **LinkedIn:** [linkedin.com/in/syedhamzamohiuddin](https://www.linkedin.com/in/syedhamzamohiuddin) *(Replace with your actual LinkedIn URL if different)*
 *   **Kaggle:** [kaggle.com/hamzamohiuddin](https://www.kaggle.com/hamzamohiuddin)
