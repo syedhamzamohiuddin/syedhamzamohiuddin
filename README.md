@@ -61,11 +61,11 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 ## Other Projects
 
 - **[Real-Time Liquid Quality Inspection](https://youtu.be/5do-AtpkTUM?si=XikSNckEzyWQqK-J)** — Automated inspection pipeline for transparent bottles on a conveyor using backlit imaging; morphological segmentation, CLAHE, Canny edge detection, contour analysis, and Kalman filter tracking.
+- **[Clinical Caries Detection](https://www.kaggle.com/code/hamzamohiuddin/accelerate-q2)** — Customized U-Net for dental radiography segmentation, high-precision boundary detection.
+- **[Traffic Analytics Pipeline](https://github.com/syedhamzamohiuddin)** — Automated traffic analysis using optical flow, thresholding, and multi-object tracking (MOT) to monitor vehicle flow and density. *(Note: If this is not on GitHub, just leave it as text or link to the video if you have one).*
 - **[Deep Probabilistic Generative Models](https://github.com/syedhamzamohiuddin/Probabilistic-Deep-Learning-with-TensorFlow-2/tree/main)** — VAEs for facial generation and RealNVP (Normalizing Flows) for high-dimensional image synthesis on LSUN.
 - **[Bayesian CNN (Uncertainty Quantification)](https://github.com/syedhamzamohiuddin/Probabilistic-Deep-Learning-with-TensorFlow-2/tree/main/Bayesian%20convolutional%20neural%20network)** — Captures aleatoric and epistemic uncertainty in digit classification, beyond point-estimate predictions.
-- **Traffic Analytics Pipeline** — Automated traffic analysis using optical flow, thresholding, and multi-object tracking (MOT) to monitor vehicle flow and density.
-- **[Clinical Caries Detection](https://www.kaggle.com/code/hamzamohiuddin/accelerate-q2)** — Customized U-Net for dental radiography segmentation, high-precision boundary detection.
-- **[Bayesian Earthquake Forecasting](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** — Bayesian AR(3) model in R for global seismic activity: model order selection, posterior inference, prior sensitivity, mixture AR model comparison.
+- **[Bayesian Earthquake Forecasting](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** — Bayesian AR(3) model in R for global seismic activity: model order selection, posterior inference, prior sensitivity, mixture AR model comparison..
 
 ---
 ### 📫 Connect with Me
