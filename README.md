@@ -1,21 +1,23 @@
 # Hi, I'm Syed Hamza Mohiuddin 👋
-### Computer Vision & Edge AI Engineer
+### Computer Vision Engineer | Systems & Edge AI
 
-I specialize in high-performance systems, model optimization, and end-to-end vision pipelines. My focus is bridging the gap between research and production—from custom training loops to edge deployment (TensorRT, Qualcomm AI Hub, ONNX).
+I am an algorithmic and systems-focused Computer Vision Engineer with a holistic grasp of the vision stack. My expertise bridges the gap between classical computer vision techniques (image processing, geometric reasoning, and tracking), deep learning architectures, and high-performance production pipelines—from custom training loops and multi-process system design to model optimization and edge deployment (TensorRT, Qualcomm AI Hub, ONNX).
 
 ---
 
 ### 🏆 Key Highlights
-*   **Global Ranking:** 8th/38 globally in the IEEE Low-Power Computer Vision Challenge (CVPR Workshop 2026) — Track 2 (Video Action Recognition), optimized for Qualcomm Dragonwing IQ-9075.
-*   **Open-Source Contributor:** Authored the **Structured Pruning Engine for Ultralytics YOLO (v8/v11)**, achieving 49% model size reduction and 30% latency improvement. [View PR #21977](https://github.com/ultralytics/ultralytics/pull/21977)
-*   **Production Performance:** Redesigned a monolithic production vision pipeline from 30 FPS to 100+ FPS using Python multiprocessing, shared memory, zero-copy IPC, and OpenCV-CUDA.
+*   **Global Recognition (CVPR Workshop 2026):** Ranked **8th/38 globally** in Track 2 (Video Action Recognition) and **12th/56 globally** in Track 1 (Open-World Retrieval) in the IEEE Low-Power Computer Vision Challenge. Optimized R2+1D and MobileCLIP architectures for Qualcomm edge hardware under strict latency budgets, overcoming severe class imbalance and label noise through rigorous data auditing.
+*   **High-Performance Systems Architecture:** Redesigned a monolithic, single-process 30 FPS dual-camera pipeline into a **4-process parallel architecture** using Zero-Copy IPC (`multiprocessing.shared_memory`) and OpenCV-CUDA. Achieved a **>300% performance increase (100+ FPS)** by resolving GUI latency and CPU-bound preprocessing bottlenecks.
+*   **Open-Source Contributor:** Authored the **Structured Pruning Engine for Ultralytics YOLO (v8/v11)** — a fully customizable, dependency-aware pruning framework with per-layer YAML control. Demonstrated up to **49% size reduction** and **30% latency improvement** in benchmark tests. [View PR #21977](https://github.com/ultralytics/ultralytics/pull/21977)  **Production Performance:** Redesigned a monolithic production vision pipeline from 30 FPS to 100+ FPS using Python multiprocessing, shared memory, zero-copy IPC, and OpenCV-CUDA.
 
 ---
 
 ### 🛠️ Core Expertise
-*   **Languages:** Python, PyTorch, TensorFlow, OpenCV, C++ (CUDA Certified)
-*   **Edge AI & Optimization:** TensorRT, Qualcomm AI Hub (QNN), ONNX, TFLite, CoreML, Quantization (INT8), Structured Pruning
-*   **System Design:** Zero-copy IPC, Shared Memory, High-performance Multiprocessing, Model Surgery & Debugging (Netron)
+
+*   **Systems Architecture & Optimization:** High-Performance Multiprocessing, Zero-Copy IPC (Shared Memory), GPU Acceleration (OpenCV-CUDA), TensorRT, Qualcomm AI Hub (QNN), ONNX, INT8 Quantization, Structured Pruning.
+*   **Deep Learning & DL-based CV:** Object Detection (YOLO v5-v11), Segmentation (U-Net), Tracking (ByteTrack, TransReID), Pose Estimation, Vision Transformers (ViT/VLMs), ReID.
+*   **Classical & Algorithmic CV:** Image Processing (Morphology, CLAHE, Canny, Contours), Geometric Reasoning (Zhang's Calibration, Homography, ArUco, `scipy.optimize`), Tracking (Kalman Filtering, Optical Flow, Background Subtraction).
+*   **Languages & Tools:** Python (Expert), PyTorch, TensorFlow, C++ (CUDA Certified), Netron Model Surgery, Reverse Engineering.
 
 ---
 
@@ -27,11 +29,29 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 
 ---
 
-### 📂 Featured Projects
-*   **[Ultralytics YOLO Structured Pruning Engine](https://github.com/ultralytics/ultralytics/pull/21977)** – Native PyTorch pruning framework (49% size reduction).
-*   **[U-Net Paper Reimplementation](https://github.com/syedhamzamohiuddin/unet-paper-reimplementation)** – Faithful implementation of original U-Net architecture with weight maps and elastic deformation.
-*   **[Attention Is All You Need (TF2)](https://github.com/syedhamzamohiuddin/-attention-is-all-you-need-tf2)** – Rigorous Transformer implementation in TensorFlow 2.
-*   **[Bayesian Earthquake Forecast](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** – Bayesian AR(3) model for seismic activity prediction.
+## 🚀 Featured Projects
+
+### High-Performance Multi-Camera Vision Pipeline (30 FPS → 100+ FPS)
+*   **Role:** Lead Systems Architect (Swift Vision)
+*   **Challenge:** Client's monolithic 30 FPS dual-camera sports analytics system was bottlenecked by sequential CPU-bound processing and OpenCV GUI latency. The client initially misdiagnosed the issue as a model inference problem.
+*   **Solution:**
+    *   Diagnosed the architectural flaw and argued against the TensorRT misdiagnosis.
+    *   Redesigned the system into a **4-process parallel architecture**: two camera logic processes (GPU preprocessing + YOLO inference), an update/state loop, and a main GUI process.
+    *   Implemented **Zero-Copy IPC** using `multiprocessing.shared_memory` to eliminate data copying overhead.
+    *   Offloaded all image preprocessing (resize, warp, blur, dilation) to **OpenCV-CUDA**.
+*   **Result:** Achieved **>300% performance increase (100+ FPS per stream)** and 120 FPS GUI rendering. Received direct praise from the client for the architectural solution.
+
+### Ultralytics YOLO Structured Pruning Engine
+*   **Role:** Creator & Lead Contributor (Open Source)
+*   **Key Feature: Fully Customizable Pruning:** Supports global pruning (single ratio) and per-layer YAML configuration for fine-grained control. Users can define custom ratios for specific layers to balance accuracy and speed for their specific hardware—because optimal pruning is problem-dependent, not fixed.
+*   **Technical Depth:** Built a dependency-aware channel pruning framework in native PyTorch, handling mask propagation across complex modules (Conv, C2f, SPPF, Detect). Implemented a custom pipeline after `torch.nn.utils.prune` failed to support grouped/depthwise convolutions. Added comprehensive unit tests and authored the [official documentation guide](https://github.com/syedhamzamohiuddin/ultralytics/blob/docs/pruning/docs/en/guides/model-optimization/pruning.md).
+*   **Example Benchmark:** Demonstrated up to 49% size reduction and 30% latency improvement (COCO128, YOLOv8s). *(Actual results vary based on configuration).* [View Pull Request #21977](https://github.com/ultralytics/ultralytics/pull/21977)
+
+### IEEE LPCVC 2026 (CVPR Workshop) – Track 2: Video Action Recognition
+*   **Result:** Ranked **8th/38 globally**.
+*   **Challenge:** 92-class fitness video dataset with severe class imbalance (some classes <150 examples) and significant label noise.
+*   **Solution & Approach:** Modified the training pipeline to log per-class train/val accuracy and individual misclassifications, manually auditing 4,500+ problematic instances. Designed 7 separate augmentation and cropping strategies based on class-specific confusion analysis. Diagnosed a Qualcomm hardware compiler tiling failure and pivoted to a 16-frame architecture to meet a <34ms latency budget.
+*   **Outcome:** Improved accuracy from 91.44% to **93.24%** through rigorous data curation and training rule refinement.  **[Bayesian Earthquake Forecast](https://github.com/syedhamzamohiuddin/bayesian-earthquake-forecast)** – Bayesian AR(3) model for seismic activity prediction.
 
 ---
 
