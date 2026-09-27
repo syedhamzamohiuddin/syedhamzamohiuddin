@@ -81,7 +81,7 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 ## 🎥 Video Demonstrations
 A collection of visual demos from early project work showcasing classical CV, tracking, and basic detection pipelines.
 
-*   **[View the full project demo playlist on YouTube](URL_TO_YOUR_PLAYLIST)** 
+*   **[View the full project demo playlist on YouTube](https://youtube.com/playlist?list=PLD8EMsAPSIFU&si=bhKIj5HZEZy_5NhT)** 
     *(Includes: Water Quality Inspection, Vehicle Detection, Pose Estimation, Pedestrian Tracking, Multi-Car Tracking, Liquid Fill Estimation, and more).*
 
 ---
