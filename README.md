@@ -86,8 +86,16 @@ A collection of visual demos from early project work showcasing classical CV, tr
 
 ---
 
+## 📖 Technical Foundations & Learning Roadmap
+
+*   **Foundational Exposure:** Studied early chapters of Hartley & Zisserman's *Multiple View Geometry* to understand the mathematical principles behind production geometry tasks.
+*   **Applied Practice:** Translated these geometric foundations into working code, including Zhang's planar calibration and marker-aware ArUco rectification using `scipy.optimize`.
+*   **Current Learning Focus:** Currently building depth in Kalman Filtering and C++ for high-performance geometric vision. 
+*   **Upcoming Study Plan:** Next steps include 3D vision libraries (PCL) and advanced coursework (CS231A) to deepen 3D perception expertise.
+---
+
 ### 📫 Connect with Me
+*   **Email:** syedhamza097@gmail.com
 *   **LinkedIn:** [linkedin.com/in/syedhamzamohiuddin](https://www.linkedin.com/in/syedhamzamohiuddin) *(Replace with your actual LinkedIn URL if different)*
 *   **Kaggle:** [kaggle.com/hamzamohiuddin](https://www.kaggle.com/hamzamohiuddin)
 *   **Medium:** [medium.com/@syedhamza097](https://medium.com/@syedhamza097)
-*   **Email:** syedhamza097@gmail.com
