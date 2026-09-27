@@ -35,32 +35,6 @@ I specialize in high-performance systems, model optimization, and end-to-end vis
 
 ---
 
-## Certifications & Coursework
-
-<details>
-<summary>Click to expand — 13 certifications across ML theory, CV, and deep learning</summary>
-
-**Core Certifications**
-- [Google TensorFlow Developer Certificate](https://www.credential.net/29a165e8-8229-4bd3-821d-d6cc4d2214ee)
-- NVIDIA — [Accelerated Computing (CUDA C/C++)](https://learn.nvidia.com/certificates?id=EWZ5mrA1SfiODLB7pcHgHQ)
-- NVIDIA — [Building Real-Time Video AI Applications](https://learn.nvidia.com/certificates?id=oQKnjE_NQfKFJ1aqtJcT7Q)
-
-**Coursera Specializations**
-- [Machine Learning — Stanford University](https://www.coursera.org/account/accomplishments/specialization/LAZQH8G4TGNK)
-- [Deep Learning — DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/certificate/9UT98LSPKZS8)
-- [First Principles of Computer Vision — Columbia University](https://www.coursera.org/account/accomplishments/specialization/7MP7GJY2FUAX)
-- [Computer Vision for Engineering & Science — MathWorks](https://www.coursera.org/account/accomplishments/specialization/CWZW2B4R4ZM6)
-- [Image Processing for Engineering & Science — MathWorks](https://www.coursera.org/account/accomplishments/specialization/NLUL2VUHLFUK)
-- [TensorFlow 2 for Deep Learning — Imperial College London](https://coursera.org/share/ac715aa161df39a24ffeed01edd029c7)
-- [Mathematics for Machine Learning — Imperial College London](https://www.coursera.org/account/accomplishments/specialization/2Z4JY4ZW74ZH)
-- [Statistics with Python — University of Michigan](https://www.coursera.org/account/accomplishments/specialization/certificate/CU34K99X623T)
-- [Bayesian Statistics — UC Santa Cruz](https://coursera.org/verify/specialization/DVWL5N3WRS58)
-
-**Other**
-- [CS50's Introduction to AI with Python — Harvard (edX)](https://courses.edx.org/certificates/2049afb05bfc4919a0986eab1a222eab)
-
-</details>
-
 ## Paper Implementations
 *Reimplemented from the original papers, first principles.*
 
@@ -92,6 +66,41 @@ A collection of visual demos from early project work showcasing classical CV, tr
 *   **Applied Practice:** Translated these geometric foundations into working code, including Zhang's planar calibration and marker-aware ArUco rectification using `scipy.optimize`.
 *   **Current Learning Focus:** Currently building depth in Kalman Filtering and C++ for high-performance geometric vision. 
 *   **Upcoming Study Plan:** Next steps include 3D vision libraries (PCL) and advanced coursework (CS231A) to deepen 3D perception expertise.
+
+---
+
+## 🎓 Education
+
+*   **BS Computer Science** | IBA Karachi *(Best Paper Nomination, ICETST 2022)*
+
+---
+
+## Certifications & Coursework
+
+<details>
+<summary>Click to expand — 13 certifications across ML theory, CV, and deep learning</summary>
+
+**Core Certifications**
+- [Google TensorFlow Developer Certificate](https://www.credential.net/29a165e8-8229-4bd3-821d-d6cc4d2214ee)
+- NVIDIA — [Accelerated Computing (CUDA C/C++)](https://learn.nvidia.com/certificates?id=EWZ5mrA1SfiODLB7pcHgHQ)
+- NVIDIA — [Building Real-Time Video AI Applications](https://learn.nvidia.com/certificates?id=oQKnjE_NQfKFJ1aqtJcT7Q)
+
+**Coursera Specializations**
+- [Machine Learning — Stanford University](https://www.coursera.org/account/accomplishments/specialization/LAZQH8G4TGNK)
+- [Deep Learning — DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/certificate/9UT98LSPKZS8)
+- [First Principles of Computer Vision — Columbia University](https://www.coursera.org/account/accomplishments/specialization/7MP7GJY2FUAX)
+- [Computer Vision for Engineering & Science — MathWorks](https://www.coursera.org/account/accomplishments/specialization/CWZW2B4R4ZM6)
+- [Image Processing for Engineering & Science — MathWorks](https://www.coursera.org/account/accomplishments/specialization/NLUL2VUHLFUK)
+- [TensorFlow 2 for Deep Learning — Imperial College London](https://coursera.org/share/ac715aa161df39a24ffeed01edd029c7)
+- [Mathematics for Machine Learning — Imperial College London](https://www.coursera.org/account/accomplishments/specialization/2Z4JY4ZW74ZH)
+- [Statistics with Python — University of Michigan](https://www.coursera.org/account/accomplishments/specialization/certificate/CU34K99X623T)
+- [Bayesian Statistics — UC Santa Cruz](https://coursera.org/verify/specialization/DVWL5N3WRS58)
+
+**Other**
+- [CS50's Introduction to AI with Python — Harvard (edX)](https://courses.edx.org/certificates/2049afb05bfc4919a0986eab1a222eab)
+
+</details>
+
 ---
 
 ### 📫 Connect with Me
