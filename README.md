@@ -105,6 +105,6 @@ A collection of visual demos from early project work showcasing classical CV, tr
 
 ### 📫 Connect with Me
 *   **Email:** syedhamza097@gmail.com
-*   **LinkedIn:** [linkedin.com/in/syedhamzamohiuddin](https://www.linkedin.com/in/syedhamzamohiuddin) *(Replace with your actual LinkedIn URL if different)*
+*   **LinkedIn:** [linkedin.com/in/syedhamzamohiuddin](https://www.linkedin.com/in/syed-hamza-mohiuddin-5410161a2/)
 *   **Kaggle:** [kaggle.com/hamzamohiuddin](https://www.kaggle.com/hamzamohiuddin)
 *   **Medium:** [medium.com/@syedhamza097](https://medium.com/@syedhamza097)
