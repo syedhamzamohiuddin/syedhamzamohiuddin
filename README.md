@@ -9,7 +9,7 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 *   **IEEE LPCVC 2026 (CVPR Workshop) – Track 2:** Ranked **8th/38 globally** in Video Action Recognition. Optimized R2+1D for Qualcomm Dragonwing IQ-9075 under a strict <34ms latency budget, overcoming severe class imbalance and label noise through rigorous data auditing.
 *   **IEEE LPCVC 2026 (CVPR Workshop) – Track 1:** Ranked **12th/56 globally** in Open-World Retrieval. Optimized MobileCLIP/ViT-B/16 for Qualcomm XR2 Gen 2, engineering a custom model wrapper to resolve tokenizer discrepancies (Causal vs. Bidirectional) for on-device inference.
 *   **High-Performance Systems Architecture:** Redesigned a monolithic, single-process 30 FPS dual-camera pipeline into a **4-process parallel architecture** using Zero-Copy IPC (`multiprocessing.shared_memory`) and OpenCV-CUDA. Achieved a **>300% performance increase (100+ FPS)** by resolving GUI latency and CPU-bound preprocessing bottlenecks.
-*   **Open-Source Contributor:** Authored the **Structured Pruning Engine for Ultralytics YOLO (v8/v11)**. This is a fully customizable, dependency-aware pruning framework with per-layer YAML control. Built in collaboration with the Ultralytics maintainer, including full test coverage and official documentation. [View PR #21977](https://github.com/ultralytics/ultralytics/pull/21977)
+*   **Open-Source Contributor:** Authored the **Structured Pruning Engine for Ultralytics YOLO (v8/v11)**, a fully customizable, dependency-aware pruning framework with per-layer YAML control. Developed with architectural guidance from the Ultralytics maintainer, including full test coverage and official documentation. [View PR #21977](https://github.com/ultralytics/ultralytics/pull/21977)
 ---
 
 ### 🛠️ Core Expertise
@@ -43,8 +43,8 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 
 ### Ultralytics YOLO Structured Pruning Engine
 *   **Role:** Creator & Lead Contributor (Open Source)
-*   **Key Feature: Fully Customizable Pruning:** Supports global pruning (single ratio) and per-layer YAML configuration for fine-grained control. Users can define custom ratios for specific layers to balance accuracy and speed for their specific hardware—because optimal pruning is problem-dependent, not fixed.
-*   **Technical Depth:** Built a dependency-aware channel pruning framework in native PyTorch, handling mask propagation across complex modules (Conv, C2f, SPPF, Detect). Implemented a custom pipeline after `torch.nn.utils.prune` failed to support grouped/depthwise convolutions. Added comprehensive unit tests and authored the [official documentation guide](https://github.com/syedhamzamohiuddin/ultralytics/blob/docs/pruning/docs/en/guides/model-optimization/pruning.md).
+*   **Key Feature: Fully Customizable Pruning:** Supports global pruning (single ratio) and per-layer YAML configuration for fine-grained control. Users can define custom ratios for specific layers to balance accuracy and speed for their specific hardware, because optimal pruning is problem-dependent, not fixed.
+*   **Technical Depth:** Built a dependency-aware channel pruning framework in native PyTorch, handling mask propagation across complex modules (Conv, C2f, SPPF, Detect). Implemented a custom pipeline after `torch.nn.utils.prune` failed to support grouped/depthwise convolutions. Added comprehensive unit tests and authored the documentation guide, developed with architectural feedback from the Ultralytics maintainer.
 *   **Example Benchmark:** Demonstrated up to 49% size reduction and 30% latency improvement (COCO128, YOLOv8s). *(Actual results vary based on configuration).* [View Pull Request #21977](https://github.com/ultralytics/ultralytics/pull/21977)
 
 ### IEEE LPCVC 2026 (CVPR Workshop) – Track 2: Video Action Recognition
