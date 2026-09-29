@@ -47,6 +47,8 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 *   **Solution & Approach:** Modified the training pipeline to log per-class train/val accuracy and individual misclassifications, manually auditing 4,500+ problematic instances. Designed 7 separate augmentation and cropping strategies based on class-specific confusion analysis. Diagnosed a Qualcomm hardware compiler tiling failure and pivoted to a 16-frame architecture to meet a <34ms latency budget.
 *   **Outcome:** Improved accuracy from 91.44% to **93.24%** through rigorous data curation and training rule refinement.
 
+---
+
 ## 🔧 Open Source: Ultralytics YOLO
 
 - **[TensorRT validation fix (PR #21592, merged)](https://github.com/ultralytics/ultralytics/pull/21592)** — Root-caused a `yolo val` failure on TensorRT `.engine` models (the validator read a `batch_size` attribute that `AutoBackend` never set) and worked through maintainer review; merged as a simplification of the validator's batch-size logic.
