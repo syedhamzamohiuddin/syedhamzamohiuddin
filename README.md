@@ -8,8 +8,7 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 ### 🏆 Key Highlights
 *   **IEEE LPCVC 2026 (CVPR Workshop) – Track 2:** Ranked **8th/38 globally** in Video Action Recognition. Optimized R2+1D for Qualcomm Dragonwing IQ-9075 under a strict <34ms latency budget, overcoming severe class imbalance and label noise through rigorous data auditing.
 *   **IEEE LPCVC 2026 (CVPR Workshop) – Track 1:** Ranked **12th/56 globally** in Open-World Retrieval. Optimized MobileCLIP/ViT-B/16 for Qualcomm XR2 Gen 2, engineering a custom model wrapper to resolve tokenizer discrepancies (Causal vs. Bidirectional) for on-device inference.
-*   **High-Performance Systems Architecture:** Redesigned a monolithic, single-process 30 FPS dual-camera pipeline into a **4-process parallel architecture** using Zero-Copy IPC (`multiprocessing.shared_memory`) and OpenCV-CUDA. Achieved a **>300% performance increase (100+ FPS)** by resolving GUI latency and CPU-bound preprocessing bottlenecks.
-
+*   **High-Performance Systems Architecture:** Redesigned a monolithic, single-process 30 FPS dual-camera pipeline into a **4-process parallel architecture** using Zero-Copy IPC (`multiprocessing.shared_memory`) and OpenCV-CUDA. Achieved **over 3x throughput (30 → 100+ FPS per camera stream)** by resolving GUI latency and CPU-bound preprocessing bottlenecks.
 ---
 
 ### 🛠️ Core Expertise
@@ -39,7 +38,7 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
     *   Redesigned the system into a **4-process parallel architecture**: two camera logic processes (GPU preprocessing + YOLO inference), an update/state loop, and a main GUI process.
     *   Implemented **Zero-Copy IPC** using `multiprocessing.shared_memory` to eliminate data copying overhead.
     *   Offloaded all image preprocessing (resize, warp, blur, dilation) to **OpenCV-CUDA**.
-*   **Result:** Achieved **>300% performance increase (100+ FPS per stream)** and 120 FPS GUI rendering. Received direct praise from the client for the architectural solution.
+*   **Result:** Achieved **over 3x throughput (30 → 100+ FPS per stream, with peaks near 120)** and 120 FPS GUI rendering. Received direct praise from the client for the architectural solution.
 
 ### IEEE LPCVC 2026 (CVPR Workshop) – Track 2: Video Action Recognition
 *   **Result:** Ranked **8th/38 globally**.
