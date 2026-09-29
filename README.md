@@ -41,12 +41,6 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
     *   Offloaded all image preprocessing (resize, warp, blur, dilation) to **OpenCV-CUDA**.
 *   **Result:** Achieved **>300% performance increase (100+ FPS per stream)** and 120 FPS GUI rendering. Received direct praise from the client for the architectural solution.
 
-### Ultralytics YOLO Structured Pruning Engine
-*   **Role:** Creator & Lead Contributor (Open Source)
-*   **Key Feature: Fully Customizable Pruning:** Supports global pruning (single ratio) and per-layer YAML configuration for fine-grained control. Users can define custom ratios for specific layers to balance accuracy and speed for their specific hardware, because optimal pruning is problem-dependent, not fixed.
-*   **Technical Depth:** Built a dependency-aware channel pruning framework in native PyTorch, handling mask propagation across complex modules (Conv, C2f, SPPF, Detect). Implemented a custom pipeline after `torch.nn.utils.prune` failed to support grouped/depthwise convolutions. Added comprehensive unit tests and authored the documentation guide, developed with architectural feedback from the Ultralytics maintainer.
-*   **Example Benchmark:** Demonstrated up to 49% size reduction and 30% latency improvement (COCO128, YOLOv8s). *(Actual results vary based on configuration).* [View Pull Request #21977](https://github.com/ultralytics/ultralytics/pull/21977)
-
 ### IEEE LPCVC 2026 (CVPR Workshop) – Track 2: Video Action Recognition
 *   **Result:** Ranked **8th/38 globally**.
 *   **Challenge:** 92-class fitness video dataset with severe class imbalance (some classes <150 examples) and significant label noise.
