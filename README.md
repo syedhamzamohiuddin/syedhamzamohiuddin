@@ -47,6 +47,15 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 *   **Solution & Approach:** Modified the training pipeline to log per-class train/val accuracy and individual misclassifications, manually auditing 4,500+ problematic instances. Designed 7 separate augmentation and cropping strategies based on class-specific confusion analysis. Diagnosed a Qualcomm hardware compiler tiling failure and pivoted to a 16-frame architecture to meet a <34ms latency budget.
 *   **Outcome:** Improved accuracy from 91.44% to **93.24%** through rigorous data curation and training rule refinement.
 
+## 🔧 Open Source: Ultralytics YOLO
+
+- **[TensorRT validation fix (PR #21592, merged)](https://github.com/ultralytics/ultralytics/pull/21592)** — Root-caused a `yolo val` failure on TensorRT `.engine` models (the validator read a `batch_size` attribute that `AutoBackend` never set) and worked through maintainer review; merged as a simplification of the validator's batch-size logic.
+- **Structured Pruning Engine ([PR #21977](https://github.com/ultralytics/ultralytics/pull/21977), [docs PR #22438](https://github.com/ultralytics/ultralytics/pull/22438))** — Native PyTorch structured pruning for YOLOv8 detection models.
+  - Global ratio or per-layer YAML configuration; norm-based channel importance; mask propagation through Conv, BatchNorm, Bottleneck, C2f, SPPF, Concat and both Detect-head towers; group-aware handling of grouped/depthwise convolutions (the reason `torch.nn.utils.prune` wasn't enough).
+  - ~1,000 lines of pruning code plus a 1,400-line test suite (43 test functions) covering the prune → save → load → retrain → ONNX export round trip.
+  - Functional demo (YOLOv8s, COCO128, ONNX): 22.6 → 11.6 MB (~49% smaller), 17.1 → 12.0 ms (~30% faster). A demonstration that the pipeline works end to end, not an accuracy benchmark; retraining is needed to recover accuracy.
+  - **Status:** scoped with maintainer guidance, CI green and branch up to date; both PRs were closed by the stale bot before code review. Code is on my fork: [`feature/prune-functionality`](https://github.com/syedhamzamohiuddin/ultralytics/tree/feature/prune-functionality) and [`docs/pruning`](https://github.com/syedhamzamohiuddin/ultralytics/tree/docs/pruning).
+
 ---
 
 ## Paper Implementations
