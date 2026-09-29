@@ -9,7 +9,7 @@ I am an algorithmic and systems-focused Computer Vision Engineer with a holistic
 *   **IEEE LPCVC 2026 (CVPR Workshop) – Track 2:** Ranked **8th/38 globally** in Video Action Recognition. Optimized R2+1D for Qualcomm Dragonwing IQ-9075 under a strict <34ms latency budget, overcoming severe class imbalance and label noise through rigorous data auditing.
 *   **IEEE LPCVC 2026 (CVPR Workshop) – Track 1:** Ranked **12th/56 globally** in Open-World Retrieval. Optimized MobileCLIP/ViT-B/16 for Qualcomm XR2 Gen 2, engineering a custom model wrapper to resolve tokenizer discrepancies (Causal vs. Bidirectional) for on-device inference.
 *   **High-Performance Systems Architecture:** Redesigned a monolithic, single-process 30 FPS dual-camera pipeline into a **4-process parallel architecture** using Zero-Copy IPC (`multiprocessing.shared_memory`) and OpenCV-CUDA. Achieved a **>300% performance increase (100+ FPS)** by resolving GUI latency and CPU-bound preprocessing bottlenecks.
-*   **Open-Source Contributor:** Authored the **Structured Pruning Engine for Ultralytics YOLO (v8/v11)**, a fully customizable, dependency-aware pruning framework with per-layer YAML control. Developed with architectural guidance from the Ultralytics maintainer, including full test coverage and official documentation. [View PR #21977](https://github.com/ultralytics/ultralytics/pull/21977)
+
 ---
 
 ### 🛠️ Core Expertise
